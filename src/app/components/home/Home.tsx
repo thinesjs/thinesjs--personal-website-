@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import MainImage from '../../assets/image.png'
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-scroll";
@@ -29,8 +27,8 @@ const HomeSection = () => {
             </Link>
           </div>
         </div>
-        <div>
-          <Image src={MainImage} alt={'image'} className='rounded-2xl mx-auto w-2/3 md:w-2/3' />
+        <div className='mx-auto w-2/3 md:w-2/4'>
+          <img src={'/image.png'} alt={'image'} className='rounded-2xl m-6' />
         </div>
       </div>
     </div>
