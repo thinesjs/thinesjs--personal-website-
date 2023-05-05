@@ -6,7 +6,7 @@ const Title = () => {
     const router = useRouter();
     return ( 
         <div className="text text-lg font-bold cursor-default">
-            thinesjs
+            thinesjs {String.fromCodePoint(Number('0x1F3C2'))}
         </div>
      );
 }
