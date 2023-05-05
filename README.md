@@ -12,11 +12,9 @@ The previous version of the website is still available <a href="https://old.thin
 
 Visit the website <a href="https://thinesjs.com" target="_blank">here</a>!
 
-## Issues
+## Checklist
 
-1. Fix CORS
-2. High response times for match history endpoint. (migrated server and reduced to 10 matches per request)
-3. Versioning endpoint might throw error?
+1. Make portfolio, experience etc dynamic.
 
 ## License
 
