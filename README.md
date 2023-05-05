@@ -10,7 +10,7 @@ The previous version of the website is still available <a href="https://old.thin
 
 ## Preview
 
-Visit the website <a href="https://thinesjs.com" target="_blank">here</a>!
+Visit the development website <a href="https://dev.thinesjs.com" target="_blank">here</a>! 
 
 ## Checklist
 
