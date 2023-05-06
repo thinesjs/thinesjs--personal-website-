@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 
 const HomeSection = () => {
   return (
-    <div className='pb-20 md:pt-0 h-screen w-full'>
-      <div id='home' className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row'>
+    <div id='home' className='w-full text-black h-screen'>
+      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='sm:text-5xl font-bold text-4xl'>Hey, I&apos;m Thines {String.fromCodePoint(Number('0x1F44B'))}</h2>
           <p className='text-gray-800 py-4 max-w-md'>

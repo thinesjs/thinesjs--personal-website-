@@ -5,7 +5,7 @@ import { faCircleInfo, faEye } from '@fortawesome/free-solid-svg-icons'
 const PortfolioSection = () => {
     const portfolioItems = [{id: 1, item: '/valortracker.png'}, {id: 2, item: '/valortracker.png'}, {id: 3, item: '/valortracker.png'}]
     return (
-        <div id="projects" className='pt-20 md:pt-0 w-full text-black h-screen'>
+        <div id="projects" className='w-full text-black h-screen'>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className='text-4xl font-bold inline'>Projects {String.fromCodePoint(Number('0x1F5A5'))}</p>
