@@ -2,19 +2,22 @@ import React from 'react'
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-scroll";
+import useSWR, { Fetcher } from 'swr';
 
 const HomeSection = () => {
+
+  // function Content () {
+  //   const { data } = useSWR('http://api.tjs-server.com/v1/education', (apiURL: string) => fetch(apiURL).then(res => res.json()));
+  // }
+
+
   return (
     <div id='home' className='w-full text-black h-screen'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='sm:text-5xl font-bold text-4xl'>Hey, I&apos;m Thines {String.fromCodePoint(Number('0x1F44B'))}</h2>
           <p className='text-gray-800 py-4 max-w-md'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Etiam semper nec nulla at efficitur. Quisque at scelerisque magna. 
-            Ut malesuada ex ligula, quis cursus mauris pretium et. 
-            Donec nisi orci, pretium sit amet luctus vitae, vulputate non leo. 
-            Nulla vestibulum porta consectetur. 
+            A website & software developer based in Malaysia. 
           </p>
           <div>
             <Link to={'projects'} smooth={'easeInOutCubic'} duration={500}>
