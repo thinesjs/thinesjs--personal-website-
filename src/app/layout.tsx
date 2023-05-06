@@ -2,6 +2,7 @@ import Navbar from './components/navbar/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import ToasterProvider from './providers/ToasterProvider'
+import ParticlesBackground from './components/ParticlesBackground'
 
 const inter = Inter({ subsets: ['latin'] })
 

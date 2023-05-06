@@ -1,3 +1,5 @@
+'use client';
+
 import { About } from '@/app/interfaces/about';
 import React from 'react'
 import useSWR from 'swr';
@@ -18,7 +20,7 @@ const AboutSection = () => {
                     <p>Uh. oh... An unknown error has occured while fetching data. Visit back later! </p>
                 )}
                 {isLoading && (
-                    <Skeleton count={9} />
+                    <Skeleton count={4} />
                 )}
                 {data && (
                     <p className='text text-justify'>
