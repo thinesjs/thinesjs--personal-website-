@@ -2,10 +2,10 @@
 2:HL["/_next/static/css/33c30621ad8cf4e8.css",{"as":"style"}]
 0:[[["",{"children":["gallery",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/33c30621ad8cf4e8.css","precedence":"next"}]],["$L4",["$","meta",null,{"name":"next-size-adjust"}]]]]]
 5:HL["/_next/static/css/e10ef998faa9f567.css",{"as":"style"}]
-6:I{"id":"3981","chunks":["626:static/chunks/c60e6be0-c7e8a03e659101e0.js","628:static/chunks/628-dc37fb7d0c58813d.js","185:static/chunks/app/layout-dfc5fc526a533112.js"],"name":"","async":false}
+6:I{"id":"3981","chunks":["626:static/chunks/c60e6be0-c7e8a03e659101e0.js","628:static/chunks/628-dc37fb7d0c58813d.js","185:static/chunks/app/layout-1017f5addf85be2d.js"],"name":"","async":false}
 7:I{"id":"4876","chunks":["350:static/chunks/d24c7ea9-9220d082bc7168b6.js","448:static/chunks/448-f7156182f8f62234.js","928:static/chunks/app/gallery/page-7e9bf5018baf3253.js"],"name":"","async":false}
-8:I{"id":"4329","chunks":["626:static/chunks/c60e6be0-c7e8a03e659101e0.js","628:static/chunks/628-dc37fb7d0c58813d.js","185:static/chunks/app/layout-dfc5fc526a533112.js"],"name":"","async":false}
-9:I{"id":"8065","chunks":["626:static/chunks/c60e6be0-c7e8a03e659101e0.js","628:static/chunks/628-dc37fb7d0c58813d.js","185:static/chunks/app/layout-dfc5fc526a533112.js"],"name":"","async":false}
+8:I{"id":"4329","chunks":["626:static/chunks/c60e6be0-c7e8a03e659101e0.js","628:static/chunks/628-dc37fb7d0c58813d.js","185:static/chunks/app/layout-1017f5addf85be2d.js"],"name":"","async":false}
+9:I{"id":"8065","chunks":["626:static/chunks/c60e6be0-c7e8a03e659101e0.js","628:static/chunks/628-dc37fb7d0c58813d.js","185:static/chunks/app/layout-1017f5addf85be2d.js"],"name":"","async":false}
 a:I{"id":"9544","chunks":["272:static/chunks/webpack-a8b2f2f07021e4e7.js","667:static/chunks/2443530c-9bcae7b4deb50611.js","139:static/chunks/139-6e2eb797f82a92d5.js"],"name":"","async":false}
 b:I{"id":"99","chunks":["272:static/chunks/webpack-a8b2f2f07021e4e7.js","667:static/chunks/2443530c-9bcae7b4deb50611.js","139:static/chunks/139-6e2eb797f82a92d5.js"],"name":"","async":false}
 c:I{"id":"9457","chunks":["272:static/chunks/webpack-a8b2f2f07021e4e7.js","667:static/chunks/2443530c-9bcae7b4deb50611.js","139:static/chunks/139-6e2eb797f82a92d5.js"],"name":"","async":false}
