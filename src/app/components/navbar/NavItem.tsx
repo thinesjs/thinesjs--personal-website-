@@ -56,6 +56,9 @@ const NavItem = () => {
                             <Link onClick={() => setNav(!nav)} to={route} smooth={'easeInOutCubic'} offset={-50} duration={500}>{route}</Link>
                         </li>
                     ))}
+                    <li className="px-4 cursor-pointer capitalize py-6 text-xl hover:scale-105 duration-200">
+                            <a href={'/gallery.html'}>Gallery</a>
+                    </li>
                     <li onClick={() => setNav(!nav)} className="cursor-pointer hover:scale-105 duration-200"><FontAwesomeIcon icon={faCircleXmark}/></li>
                 </ul>
             )}
