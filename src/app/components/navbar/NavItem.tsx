@@ -4,8 +4,12 @@ import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
 import { useState } from "react";
+import { usePathname } from 'next/navigation';
 
 const NavItem = () => {
+    const pathname = usePathname();
+    console.log(pathname); 
+
     const [nav, setNav] = useState(false)
     const navbarItems = [{id: 1, route: 'home'}, {id: 2, route: 'about'}, {id: 3, route: 'projects'}]
 
