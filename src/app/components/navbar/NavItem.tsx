@@ -18,6 +18,9 @@ const NavItem = () => {
                          <Link to={route} smooth={'easeInOutCubic'} duration={500}>{route}</Link>
                     </li>
                 ))}
+                <li className="px-4 z-10 capitalize font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer">
+                    <a href={'/gallery'}>Gallery</a>
+                </li>
             </ul>
 
             {/* mobile navbar toggle */}

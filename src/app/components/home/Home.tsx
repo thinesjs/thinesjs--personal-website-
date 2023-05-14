@@ -5,12 +5,6 @@ import { Link } from "react-scroll";
 import useSWR, { Fetcher } from 'swr';
 
 const HomeSection = () => {
-
-  // function Content () {
-  //   const { data } = useSWR('http://api.tjs-server.com/v1/education', (apiURL: string) => fetch(apiURL).then(res => res.json()));
-  // }
-
-
   return (
     <div id='home' className='w-full text-black h-screen'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row'>
