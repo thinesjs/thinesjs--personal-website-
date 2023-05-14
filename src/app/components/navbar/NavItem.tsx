@@ -16,16 +16,25 @@ const NavItem = () => {
     return ( 
         <div>
             {/* web navbar */}
-            <ul className="hidden md:flex">
-                {navbarItems.map(({id, route}) => (
-                    <li key={id} className="px-4 z-10 capitalize font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer">
-                         <Link to={route} smooth={'easeInOutCubic'} duration={500}>{route}</Link>
+            {(pathname == "/gallery.html")? 
+                <ul className="hidden md:flex">
+                    <li className="px-4 z-10 capitalize font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer">
+                        <a href={'/'}>Back</a>
                     </li>
-                ))}
-                <li className="px-4 z-10 capitalize font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer">
-                    <a href={'/gallery.html'}>Gallery</a>
-                </li>
-            </ul>
+                </ul>
+            :
+                <ul className="hidden md:flex">
+                    {navbarItems.map(({id, route}) => (
+                        <li key={id} className="px-4 z-10 capitalize font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer">
+                            <Link to={route} smooth={'easeInOutCubic'} duration={500}>{route}</Link>
+                        </li>
+                    ))}
+                    <li className="px-4 z-10 capitalize font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer">
+                        <a href={'/gallery.html'}>Gallery</a>
+                    </li>
+                </ul>
+            }
+            
 
             {/* mobile navbar toggle */}
             <div onClick={() => setNav(!nav)} className="pr-4 cursor-pointer text-gray-800 hover:scale-105 duration-200 md:hidden">
