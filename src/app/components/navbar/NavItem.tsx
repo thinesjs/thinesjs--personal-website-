@@ -19,7 +19,7 @@ const NavItem = () => {
                     </li>
                 ))}
                 <li className="px-4 z-10 capitalize font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer">
-                    <a href={'/gallery'}>Gallery</a>
+                    <a href={'/gallery.html'}>Gallery</a>
                 </li>
             </ul>
 
