@@ -42,7 +42,14 @@ const NavItem = () => {
             </div>
 
             {/* mobile navbar */}
-            {nav && (
+            {nav && ((pathname == "/gallery.html")? 
+                <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-slate-100 text-gray-500 duration-200">
+                    <li className="px-4 cursor-pointer capitalize py-6 text-xl hover:scale-105 duration-200">
+                            <a href={'/'}>Back</a>
+                    </li>
+                    <li onClick={() => setNav(!nav)} className="cursor-pointer hover:scale-105 duration-200"><FontAwesomeIcon icon={faCircleXmark}/></li>
+                </ul>
+            :
                 <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-slate-100 text-gray-500 duration-200">
                     {navbarItems.map(({id, route}) => (
                         <li key={id} className="px-4 cursor-pointer capitalize py-6 text-xl hover:scale-105 duration-200">
@@ -51,7 +58,6 @@ const NavItem = () => {
                     ))}
                     <li onClick={() => setNav(!nav)} className="cursor-pointer hover:scale-105 duration-200"><FontAwesomeIcon icon={faCircleXmark}/></li>
                 </ul>
-                
             )}
 
             
