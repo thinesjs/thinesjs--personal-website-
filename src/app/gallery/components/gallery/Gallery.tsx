@@ -16,11 +16,11 @@ const GallerySection = () => {
 
     return (
         <div id='gallery' className='w-full text-black h-screen'>
-            <div className='max-w-screen-lg p-10 mx-auto flex flex-col justify-center'>
+            <div className='max-w-screen xl:px-[200px] mx-auto flex flex-col justify-center'>
                 {error && (
                     <p>An unknown error has occured while fetching data ;(</p>
                 )}
-                <div className="mt-10 grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0">
+                <div className="mt-20 grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {isLoading && times(6, index => (
                         
                             <div className="shadow-sm rounded-lg border-[1px]">
@@ -29,7 +29,7 @@ const GallerySection = () => {
                         
                     ))}
                 </div>
-                 <div className="card-list mt-10">
+                 <div className="card-list mb-10">
                     {data && data?.map((item) => (
                         <div key={item.id} className="card">
                             <img
