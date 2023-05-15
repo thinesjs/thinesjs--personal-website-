@@ -17,11 +17,12 @@ const GallerySection = () => {
     return (
         <div id='gallery' className='w-full text-black h-screen'>
             <div className='max-w-screen xl:px-[200px] mx-auto flex flex-col justify-center'>
+                <p className='mt-20 mb-20 text-4xl font-bold inline'>Digital Gallery {String.fromCodePoint(Number('0x1F331'))}</p>
                 {error && (
-                    <p>An unknown error has occured while fetching data ;(</p>
+                    <p>An unknown error has occured while fetching data.</p>
                 )}
-                <div className="mt-20 grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {isLoading && times(6, index => (
+                <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0">
+                    {isLoading && times(12, index => (
                         
                             <div className="shadow-sm rounded-lg border-[1px]">
                                 <Skeleton style={{ display: 'flex', minHeight: 150 }} height="100%" className='rounded-t-lg mx-auto w-fit border-b-[1px] md:w-fit'/>
@@ -34,7 +35,7 @@ const GallerySection = () => {
                         <div key={item.id} className="card">
                             <img
                                 className="card--image"
-                                alt={'Rate Limit Error'}
+                                alt={'image'}
                                 src={item.image_url}
                                 width="50%"
                                 height="50%"
