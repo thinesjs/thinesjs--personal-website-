@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/izmizkdb/public_html
-    - export REPOPATH=/home/izmizkdb/repositories/thinesjsnew
+    - export REPOPATH=/home/izmizkdb/repositories/thinesjs
     - /bin/cp -R out/* $DEPLOYPATH
