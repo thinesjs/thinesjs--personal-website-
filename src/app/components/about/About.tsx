@@ -8,7 +8,7 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import { times } from 'lodash'
 
 const AboutSection = () => {
-    const { data, error, isLoading } = useSWR<About[]>('https://api.tjs-server.com/v1/about', (apiURL: string) => fetch(apiURL, {headers:{"x-api-key": "5!WuTjN!reV8VAv6b6ZU!QzC7XLoGaTpG4R1"}}).then(res => res.json()));
+    const { data, error, isLoading } = useSWR<About[]>('https://api.thinesjaishankar.com/v1/about', (apiURL: string) => fetch(apiURL, {headers:{"x-api-key": "5!WuTjN!reV8VAv6b6ZU!QzC7XLoGaTpG4R1"}}).then(res => res.json()));
     return (
         <div id="about" className='w-full text-black h-screen'>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

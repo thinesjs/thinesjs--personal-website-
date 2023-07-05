@@ -12,7 +12,7 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import './gallery.css';
 
 const GallerySection = () => {
-    const { data, error, isLoading } = useSWR<Galleryy[]>('https://api.tjs-server.com/v1/gallery', (apiURL: string) => fetch(apiURL, {headers:{"x-api-key": "5!WuTjN!reV8VAv6b6ZU!QzC7XLoGaTpG4R1"}}).then(res => res.json()));
+    const { data, error, isLoading } = useSWR<Galleryy[]>('https://api.thinesjaishankar.com/v1/gallery', (apiURL: string) => fetch(apiURL, {headers:{"x-api-key": "5!WuTjN!reV8VAv6b6ZU!QzC7XLoGaTpG4R1"}}).then(res => res.json()));
 
     return (
         <div id='gallery' className='w-full text-black h-screen'>
