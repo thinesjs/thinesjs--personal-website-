@@ -6,7 +6,7 @@ import Title from "./Title";
 
 const Navbar = () => {
     return (
-        <div className="w-full z-10">
+        <div className="z-10 w-full">
             <div className="py-4 sm:px-[100px] md:px-[100px] lg:px-[100px] xl:px-[400px]">
                 <Container>
                     <div className="flex flex-row items-center justify-between gap-3 md:gap-0">

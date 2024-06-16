@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <Box p="4">
           <Flex justifyContent="center" alignItems="center">
-            <Text>thinesjaishankar.com</Text>
+            <Text>thinesjs.com</Text>
           </Flex>
         </Box>
     )

@@ -16,7 +16,7 @@ const GallerySection = () => {
             {/* <div className='max-w-screen xl:px-[200px] mx-auto flex flex-col justify-center'> */}
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <p className='text-4xl font-bold inline'>Gallery {String.fromCodePoint(Number('0x1F331'))}</p>
-                <p className='py-6 text-semibold'>Checkout my gallery!</p>
+                <p className='py-6 text-semibold'>Photography is also my passion and I do it as a hobby! Some of my clicks are here for you to see!</p>
                 {error && (
                     <p>An unknown error has occured while fetching data.</p>
                 )}
