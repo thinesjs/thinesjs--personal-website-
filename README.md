@@ -1,22 +1,15 @@
-<h3 align="center">ThinesJS</h3>
+<h3 align="center">thinesjs.com</h3>
 
 ## About
 
-Repository for my personal website at thinesjs.com.
+Repository for my personal website at <a href="https:/thinesjs.com" target="_blank">thinesjs.com</a>.
 
-## Previous Version
+## To-do
 
-~~The previous version of the website is still available <a href="https://old.thinesjs.com" target="_blank">here</a>!~~
-
-## Preview
-
-Visit the development website <a href="https://dev.thinesjs.com" target="_blank">here</a>! 
-
-## Checklist
-
-1. Make portfolio, experience etc dynamic. (DONE)
+1. ~~Make portfolio, experience etc dynamic.~~
 2. Add contact modal and integrate api.
 3. Add information pages for portfolio items.
+4. Add onLoad state for images in /gallery
 
 ## License
 
